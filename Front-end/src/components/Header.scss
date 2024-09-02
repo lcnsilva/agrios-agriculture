@@ -1,0 +1,11 @@
+$background-color: #eee;
+$text-color-active: #1F1E17;
+$text-color: #878680;
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: $background-color;
+    display: flex;
+    align-items: center;
+}

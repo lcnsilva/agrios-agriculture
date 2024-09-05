@@ -19,10 +19,10 @@ function TopHeader() {
                     <p>suporte@francacoder.com</p>
                 </li>
                 <li className="icons">
-                    <img src={skype} alt="skype" />
-                    <img src={face} alt="face" />
-                    <img src={picsart} alt="picsart" />
-                    <img src={insta} alt="insta" />
+                    <a href=""><img src={skype} alt="skype" /></a>
+                    <a href=""><img src={face} alt="face" /></a>
+                    <a href=""><img src={picsart} alt="picsart" /></a>
+                    <a href=""><img src={insta} alt="insta" /></a>
                 </li>
             </ul>
         </div>

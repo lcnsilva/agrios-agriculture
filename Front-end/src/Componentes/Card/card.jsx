@@ -1,16 +1,16 @@
-import iconDolar from './img_Card_Agriculture/iconDolar_card.svg';
-import imgProduto from './img_Card_Agriculture/cebola_img_agriculture.svg'
+import iconDolar from '../../assets/iconDolar_card.svg';
+import imgProduto from '../../assets/imagem_cebola_agrios.png';
 import './card.css';
 
-function Card(){
-    return(
+function Card() {
+    return (
         <div className='card'>
             <div className='img-produto'>
                 <img src={imgProduto} alt="Imagem do produto" />
             </div>
             <div className='info-produto'>
-                <div className='nome-produto'>Onions</div>
-                <div className='valor-produto'>$20.00</div>
+                <span className='nome-produto'>Onions</span>
+                <span className='valor-produto'>$20.00</span>
             </div>
             <div className='icon-dolar'>
                 <img src={iconDolar} alt="Icone de Dolar" />

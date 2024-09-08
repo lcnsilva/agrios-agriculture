@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.banner {
+    position: relative;
+    height: 200px;
+}
+
+.banner img {
+    width: 100%;
+    height: 100%;
+}
+
+.bannerInfo {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+
+.bannerInfo h2{
+    color: #ECC044;
+    font-family: "Covered By Your Grace", cursive;
+    font-size: 36px;
+    line-height: 18px;
+    letter-spacing: 0;
+    text-wrap: wrap;
+    width: 60%;
+}
+
+.bannerInfo strong{
+    color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 26px;
+}
+
+.bannerInfo button {
+    color: #ffffff;
+    font-family: "Manrope", sans-serif;
+    font-size: 8px;
+    line-height: 12px;
+    font-weight: 600;
+    background-color: #4BAF47;
+    border: none;
+    border-radius: 3px;
+    padding: 6px 12px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.bannerInfo button:hover {
+    background-color: rgba(75, 175, 71, 0.7);
+}
+
+@media screen and (min-width: 768px){  /* x0.6, pega a largura do media query, divide pela padrão do desktop(1920), e multiplica por 1.5, ((768/1920) * 1.5) */
+    .banner {
+        height: 400px;
+    }
+    .bannerInfo h2{
+        font-size: 78px;
+        line-height: 42px;
+    }
+    .bannerInfo strong{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .bannerInfo button {
+        font-size: 10px;
+        line-height: 18px;
+        margin-top: 18px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .banner {
+        height: 600px;
+    }
+    .bannerInfo h2{
+        font-size: 104px;
+        line-height: 56px;
+        width: 60%;
+    }
+    .bannerInfo strong{
+        font-size: 80px;
+        line-height: 80px;
+    }
+    .bannerInfo button {
+        font-size: 14px;
+        line-height: 24px;
+        margin-top: 24px;
+        padding: 14px 40px;
+        border-radius: 8px;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .banner {
+        height: 800px;
+    }
+    .bannerInfo h2{
+        font-size: 130px;
+        line-height: 70px;
+        width: 60%;
+    }
+    .bannerInfo strong{
+        font-size: 100px;
+        line-height: 100px;
+    }
+    .bannerInfo button {
+        font-size: 14px;
+        line-height: 30px;
+        margin-top: 30px;
+        padding: 14px 50px;
+        border-radius: 10px;
+    }
+}

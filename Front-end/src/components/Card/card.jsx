@@ -1,5 +1,5 @@
 import iconDolar from '../../assets/iconDolar_card.svg';
-import imgProduto from '../../assets/imagem_cebola_agrios.png';
+import imgProduto from '../../assets/produtos/onion.png';
 import './card.css';
 
 function Card() {

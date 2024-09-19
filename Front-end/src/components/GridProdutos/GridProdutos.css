@@ -1,0 +1,39 @@
+.container {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: minmax(124px, 1fr);
+    gap: 40px 30px;
+    grid-auto-flow: row;
+    justify-items: center;   
+    justify-content: center; 
+}
+
+@media screen and (min-width: 768px){  /* x0.6, pega a largura do media query, divide pela padrão do desktop(1920), e multiplica por 1.5, ((768/1920) * 1.5) */
+    .container{
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: minmax(270px, 1fr);
+        gap: 30px 30px;
+    }
+}
+
+@media screen and (min-width: 1024px){ 
+    .container{
+        grid-template-columns: 296px 296px 296px;
+        grid-template-rows: minmax(360px, 1fr);
+        gap: 0 20px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .container{
+        grid-template-columns: 370px 370px 370px;
+        grid-template-rows: minmax(458px, 1fr);
+        gap: 0;
+    }
+}
+
+@media screen and (min-width: 1920px){
+    .container {
+        gap: 0 30px;
+    }
+}

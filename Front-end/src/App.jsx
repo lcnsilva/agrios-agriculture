@@ -1,13 +1,13 @@
 import Banner from './components/Banner';
-import Card from './components/Card/card';
+import GridProdutos from './components/GridProdutos';
+
 
 function App() {
 
   return (
     <>
       <Banner />
-      <Card />
-      
+      <GridProdutos />
     </>
   )
 }

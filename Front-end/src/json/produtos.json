@@ -1,5 +1,32 @@
 [
     {
-        
-    }
+        "nome" : "Onion",
+        "preco" : 20,
+        "img" : "src/assets/produtos/onion.png"
+    },
+    {
+        "nome" : "Carrot",
+        "preco" : 50,
+        "img" : "src/assets/produtos/carrot.png"
+    },
+    {
+        "nome" : "Tomato",
+        "preco" : 50,
+        "img" : "src/assets/produtos/tomato.png"
+    },
+    {
+        "nome" : "Red Grapes",
+        "preco" : 100,
+        "img" : "src/assets/produtos/red-grapes.png"
+    },
+    {
+        "nome" : "Garlic",
+        "preco" : 20,
+        "img" : "src/assets/produtos/garlic.png"
+    },
+    {
+        "nome" : "Lettuce",
+        "preco" : 30,
+        "img" : "src/assets/produtos/lettuce.png"
+    }    
 ]

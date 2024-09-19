@@ -1,23 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 .card {
-    width: 100%; 
-    height: auto;
+    width: 100px; 
+    height: 124px;
     text-align: center;
     display: flex;
     flex-direction: column;
 }
 
-.info-produto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 14px;
-}
 
 .nome-produto {
     font-family: 'Manrope', sans-serif;
-    font-size: 16px;
+    font-size: 10px;
     color: #222222;
     font-weight: 800;
     padding-bottom: 6px;
@@ -25,13 +19,14 @@
 
 .valor-produto {
     font-family: 'Manrope', sans-serif;
-    font-size: 12px;
+    font-size: 10px;
     color: #4BAF47;
     font-weight: 600;
     padding-bottom: 6px;
 }
 
 .img-produto {
+    padding-bottom: 14px;
     background-color: #F8F7F2;
 }
 
@@ -53,9 +48,9 @@
 
 @media (min-width: 1024px) {
     .card {
-        width: 370px;
-        height: 458px;
-        padding: 20px;
+        width: 220px;
+        height: 270px;
+        padding: 12px;
     }
 
     .nome-produto {
@@ -64,5 +59,21 @@
 
     .valor-produto {
         font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .card {
+        width: 296px;
+        height: 360px;
+        padding: 16px;
+    }    
+}
+
+@media screen and (min-width: 1920px){
+    .card {
+        width: 370px;
+        height: 458px;
+        padding: 20px;
     }
 }
